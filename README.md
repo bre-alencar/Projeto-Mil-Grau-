@@ -18,3 +18,4 @@ Descrição do Projeto: Construção do zero de site Web
 | :---: | :----------:| :---: | :---: |
 | 3020200397 | Breno Henrique Alencar Franco| TADS  | 1A |
 | 3021104199 | Emerson dos Santos Barbosa | TADS | 1A |
+| 3021101288 | Julia da Costa Ramos | TADS | 1A |
