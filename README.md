@@ -12,3 +12,8 @@ Descrição do Projeto: Construção do zero de site Web
  3021104454/Egielle Feitosa Paiva/TADS/1A
  3021100500/Raessa Ramos Lourenço/TADS/1A
  3021100035/Leonardo Magalhães Vezzali/TADS/1A 
+
+
+| R.A | NOME COMPLETO | CURSO | TURMA |
+| :---: | :----------:| :---: | :---: |
+| `123` | TESTE         | TADS  | 1A    |
