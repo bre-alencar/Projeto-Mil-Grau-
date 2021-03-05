@@ -16,4 +16,4 @@ Descrição do Projeto: Construção do zero de site Web
 
 | R.A | NOME COMPLETO | CURSO | TURMA |
 | :---: | :----------:| :---: | :---: |
-| `123` | TESTE         | TADS  | 1A    |
+| `3020200397` | `Breno Henrique Alencar Franco`| `TADS`  | `1A` |
