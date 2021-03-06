@@ -13,4 +13,5 @@ Descrição do Projeto: Construção do zero de site Web
 | 3021103858 | Kevin Pedro da Silva | TADS | 1A |
 | 3021104454 | Egielle Feitosa Paiva | TADS | 1A |
 | 3021100500 | Raessa Ramos Lourenço | TADS | 1A |
-| 3021100035 | Leonardo Magalhães Vezzali | TADS | 1A|
+| 3021100035 | Leonardo Magalhães Vezzali | TADS | 1A |
+| 3021100253 | Guilherme Sabino Alves | TADS | 1A |
