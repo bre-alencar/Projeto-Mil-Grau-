@@ -15,3 +15,4 @@ Descrição do Projeto: Construção do zero de site Web
 | 3021100500 | Raessa Ramos Lourenço | TADS | 1A |
 | 3021100035 | Leonardo Magalhães Vezzali | TADS | 1A |
 | 3021100253 | Guilherme Sabino Alves | TADS | 1A |
+| 3021100160 | Thíers Manrony e Silva | TADS | 1A |
