@@ -2,7 +2,7 @@
 Construção de um sistema web / Alunos turma 01/A
 
 Descrição do Projeto:
-<h1>"Custome Help" </h1> é um site focado em orientar usuários quanto ao tipo de produtos, marcas com melhor custo beneficio.
+"Custome Help" é um site focado em orientar usuários quanto ao tipo de produtos, marcas com melhor custo beneficio.
 Além da orient<ação, o site contará com dicas e comentários sobre o produto em questão e sua funcionalidade.
 Ajudaremos mostrando os sites mais seguros para que os usuários fiquem sem nenhum receio de fazer as suas compras online.
 
