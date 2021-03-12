@@ -7,6 +7,7 @@ Além da orientação, o site contará com dicas e comentários sobre o produto 
 Ajudaremos mostrando os sites mais seguros para que os usuários fiquem sem nenhum receio de fazer as suas compras online.
 
 
+
 | R.A | NOME COMPLETO | CURSO | TURMA |
 | :---: | :----------:| :---: | :---: |
 | 3020200397 | Breno Henrique Alencar Franco| TADS  | 1A |
