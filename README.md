@@ -17,7 +17,6 @@ Ajudaremos mostrando os sites mais seguros para que os usuários fiquem sem nenh
 | 3021102513 | Gian Luca Sindici | TADS | 1A |
 | 3021103858 | Kevin Pedro da Silva | TADS | 1A |
 | 3021104454 | Egielle Feitosa Paiva | TADS | 1A |
-| 3021100500 | Raessa Ramos Lourenço | TADS | 1A |
 | 3021100035 | Leonardo Magalhães Vezzali | TADS | 1A |
 | 3021100160 | Thíers Manrony e Silva | TADS | 1A |
 | EdsonMSouza | Edson Melo de Souza | Prof.| 1A |
