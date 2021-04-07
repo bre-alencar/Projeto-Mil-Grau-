@@ -1,7 +1,7 @@
 # Projeto-Mil-Grau-
 Construção de um sistema web / Alunos turma 01 e 02/A
 
-## Descrição do Projeto:
+## Descrição do Projeto: Mobile 
 
 **"Custome Help"** é um site focado em orientar usuários quanto ao tipo de produtos, marcas com melhor custo beneficio. 
 Além da orientação, o site contará com dicas e comentários sobre o produto em questão e sua funcionalidade.
