@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="imagens/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=3i_ouVN4zt1yJuDeiKHX8gXw177nbR1p3ltjsAnC3BMfY85T1_ihrfoPEI294UnfPOOZ4azALFROuBlXksyZcaYtzD5Ij9dGCm1QzNT6jpr-SD-w8GJGmU9xHzloQU1EKqH7XQ36rhioCNTbzr3K9e9hfzAc98u-ymeBjX1-H5kpQf8NXbYxJ9HUWNP1xSJqqw6e8ZRSuQ3R_b-ec1e0eVs6uQmt_6BW1XxKwLPWTphCDNPv7PgwjRETcUXKYenuSBv9F5PIO4wpLNUqz2ovYvYQO1nooF5ngfvDFq6ByR2UrIp7NKNup3kcjiStigAfai_Ky4Km2sAZhDRoNqVs0v4_cCLVuB8hsjhcl_jiP44ioPMVpJPxkXrMgUvsKWbt9F7zltckjht7Cz19tClfbKW4dIBCgxeMOJ6yvRkSFOr9QtKhcuOHF3vgPzZcJO3L66P9Vo_EwtpWtCwTtrSjIEdgKUYFgvIYX3P74pa6jjrHBxqafkN3pvS99WtG6B7rG3KtFaVAzYBa6Ia0SDboJig1OpSr0z0Qh3N3MreYubtZOCowo8ng4e-3A2w0EHJeMheJUkbSc537MWXxVWb8lR4SS8Pzheiyp6gV-qEEyVFmeqbOJuLL2jPnWS9PlIZ0yDMKGRvm4MXYZeKgkoFkwQoCJDa1gJInSH4hRtWCf9MsxMfV-ASfxK7nQSwTPK36jP_1arl-F-CqDFnZRAhOJwtbhh62iWlzWO-_g-QfPOBuwtNClsaV1Vfe1NoTfxmTQpUmpe_qQuBySoF35MKSDULNleS1DfqvDvCnCU08hOEwHcFBWVB0NccxuiLHL8InF5o7FJS9teyOj7RNjcKdazJFuV0IbLEh60fQnhsvdePK__pN12jLPJx5mjQhKlHB-e4vutW6K51qvU6u68T0NCRBYqSLLOTI-zA1nt03_yDFDftfdMFMwpXZP6jbyijHAmdBqxmpnd6BGSKnue5jtmnUG1JyEMcD2hBNf7lt9T-ZBQPSrl400nai7AjRJRhooF1ctwf3pXf-bvXczq6pTyDTK_xZPh6gJtOzUVG7o6Hyi1XXLHA2fnpEOqzWq0qkQhRnEN2JWfmOzDj7xONs2jwbNR4JvJ3jKAmlxYH6cvOX8XNJ1AZLUz4hnRnNwVfYp8i9KtblGax5pBgItW0PsF86l6BIq8fG05qCExvv-MU" nonce="5902802adf3d9424f9a39c8e835c96e0" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYWlsLWF0dGFjaG1lbnQuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2F0dGFjaG1lbnQvdS8wLz91aT0yJmlrPWY1NjFhMDlhY2ImYXR0aWQ9MC4xJnBlcm1tc2dpZD1tc2ctZjoxNjk5NDEzNzY5MjUyNjE1MjkxJnRoPTE3OTU4N2QxYmFiNWI0N2Imdmlldz1hdHQmZGlzcD1zYWZlJnNhZGRiYXQ9QU5HamRKOVBMUVREV1VEXzJTWFVwMmF3RmZ6Vm43azJqd0xheTRnV1Z3ZFFQcG9tdWRVaTdOdmw2TzRnUVYweWQ2akxZaVpfOGNPYzZTVDRJbGxVeUVSYllsVWx5a0Jja2ZzMlVyVFlxbnlhb0QxRkdaQ1VIQ2Z4OU03ZWU3TWJ5a2dKRnRVTlhKX2NMZDhlQnBKNVJrR1J3REZYcWx3b0JFVlNza1prRXYyQ3ZIVEd2Z1JRUmpFUWstSndScWotcDA4M19xeEt0VUtKN2I0Y3RGVXQxd2F5VGNhV0pQVXlBbjlkUWkxWHJvRV9BM3hoQm5DbktfWDhoenNZdmxDaDBwakJVMXhpZDBhUTV2LTFJaURnS3JZdVRmVHB4QmpXeG5ua3RSZ1Y0VUdiaDc0MDhTcUYzV1hhSFlXUm45Z2ZrcXpsNGJNaU5RZ3FWR0g0LWJQclhTc1ZXZC1OeUpIUmRzOWZ2TjFfYUNQcEdEN2VQaW5CUERBLTU1NGpmTXgwSWduTHFPWmRJZVYtYWpFcHRCZzlZSGFMRnZ6LWt1Z29rc1gzclhQdEZvWG5KNE8yNElXemRzYWgzQTJ1cVBUN3JVTWVOTnE0TGZwSDJZZGE5MVlxTjljeGhvaWQ0SnNXUmhzTGNsbDY1elRjOHpXZU1MWkVQTTVmVGs3czZQbTFNVTYyb1NCQmpfTzJjdnJnVVBnYzV2TDd3U1o2RlVtd3cwQnNhZ2FJV2dnc3R2Q05EenItVnVaRHFCM25La2xzYkgwcTlpclJkWnI3aXlvWUVxZjlRTEJ6a3JoOXp5Z0tZdng4Nm9EX0hJdzAtOW5Bc2ZnS2VrV3ZvUGktc2JjcjlMS29UeGlOSXpCVHp0N1VQcUdod2VlUzJ6RE14VFBqN1Y0WVNUQjFsbXFaSl9TQ3lCWk5kRWcyMm1MRlJINA"/><script src="https://kit.fontawesome.com/aba3cce170.js" crossorigin="anonymous"></script>
+    
+ 
+</head>
+<body>
+    <div class="container">
+
+        
+        <div class="content first-content">
+           <div class="first-column">
+             
+               <h2 class="title-bemvindo">Bem-vindo de volta!</h2>
+               <p class="description-primary">Manter conectado</p>
+               <button id="entrar" class="btn-primary">Entrar</button>
+
+               <h5> <a href="home.html">Home</a></h5>
+           </div>
+           <div class="second-column">
+               <h2 class="title-conta">Criar uma conta</h2>
+               <p class="description-second">Coloca seu e-mail para se registrar</p>
+               <form class="form">
+                   <label class="label-input">
+                    <i class="far fa-user icon-modify"></i>
+                    <input type="text" placeholder="Nome">
+                   </label>
+
+                   <label class="label-input">
+                    <i class="far fa-envelope icon-modify"></i>
+                    <input type="email" placeholder="E-mail">
+                   </label>
+
+                   <label class="label-input">
+                    <i class="fas fa-lock icon-modify"></i>
+                    <input type="password" placeholder="Senha">
+                   </label>
+                    
+                   <button class="btn-second">Cadastrar</button>
+               </form>
+           </div> <!--segunda coluna lado direito-->
+        </div>
+        <div class="content second-content">
+            <div class="first-column">
+                <h2 class="title-bemvindo">Olá, comparador!</h2>
+                <p class="description-primary">Insira seus dados pessoais</p>
+                <button id="voltar" class="btn-primary">Voltar</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title-conta">Entrar na conta</h2>
+                <p class="description-second">Coloca seu e-mail e senha para entrar</p>
+                <form class="form">
+                       <label class="label-input">
+                        <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="E-mail">
+                       </label>
+
+                       <label class="label-input">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                       </label>
+
+                       <a class="password" href="#">Esqueceu sua senha?</a>
+                       <button class="btn-second">Entrar</button>
+                     
+                </form>
+            
+            </div> <!--segunda coluna lado esquerdo-->
+        </div> <!--second content-->
+    </div>
+
+
+    <script src="js/cadastro.js"></script>
+
+  
+</body>
+</html>

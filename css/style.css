@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+a{
+color:#fff;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+}
+.content {
+    border-radius: 15px;
+    background-color: #E7DFDD;
+    width: 960px;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.content::before {
+    content: "";
+    position: absolute;
+    background-color: #eb8704;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+    left: 0;
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.title-bemvindo {
+    color:#E7DFDD;
+}
+.title-conta {
+    color:#eb8704;
+}
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.description-primary {
+    color: #E7DFDD;
+}
+.description-second {
+    color: rgb(114, 113, 113);
+}
+.btn-second {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 9px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none ;
+}
+.btn-primary {
+    background-color: transparent;
+    border: 1px solid rgb(252, 248, 248);
+    transition: background-color .5s;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none ;
+    color: #E7DFDD;
+    margin: 10px;
+}
+.btn-second {
+    background-color: #eb8704;
+    border: 1px solid #eb8704;
+    transition: background-color .5s;
+    
+}
+.btn-primary:hover {
+    background-color: #E7DFDD;
+    color: #eb8704;
+}
+.btn-second:hover{
+    background-color:#E7DFDD;
+    border: 1px solid #eb8704;
+    color:#eb8704;
+}
+.first-content {
+    display: flex;
+}
+.first-content .second-column {
+    z-index: 12;
+}
+.first-column {
+    text-align: center;
+    width: 40%;
+    z-index: 10;
+}
+.second-column {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    
+
+}
+.form input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color:azure;
+}
+.label-input {
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.icon-modify{
+    color: rgb(114, 113, 113);
+    padding: 0 5px;
+}
+/*second content*/
+.second-content {
+    position: absolute;
+    display: flex;
+}
+.second-content .first-column {
+    order: 2;
+    z-index: -1;
+}
+.second-content .second-column {
+    order: 1;
+    z-index: -1;
+}
+.password {
+    color: rgb(114, 113, 113);
+    font-size: 14px;
+    margin: 15px 0;
+    text-align: center;
+}
+.password::first-letter { 
+    text-transform: capitalize;
+}
+.entrar-js .first-content .first-column{
+    z-index: -1;
+}
+
+.entrar-js .second-content .second-column {
+    z-index: 11;
+}
+.entrar-js .second-content .first-column {
+    z-index: 13;
+}
+.entrar-js .content::before {
+    left: 60%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    animation: slidein 1.3s;
+
+    z-index: 12;
+    
+}
+.voltar-js .content::before {
+    animation: slideout 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+
+    z-index: 12;
+}
+.voltar-js .second-content .first-column,
+.voltar-js .second-content .second-column {
+    z-index: -1;
+}
+.voltar-js .first-content .second-column {
+    z-index: 11;
+
+}
+.voltar-js .first-content .first-column{
+    z-index: 13;
+}
+.entrar-js .first-content .second-column {
+
+    z-index: -1;
+    position: relative;
+    animation: deslocamentoEsq 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+}
+
+.voltar-js .second-content .second-column {
+    position: relative;
+    z-index: -1;
+    animation: deslocamentoDir 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/ 
+}
+
+
+/*ANIMAÇÃO*/
+@keyframes deslocamentoEsq {
+
+    from {
+        left: 0;
+        opacity: 1;
+        z-index: 12;
+    }
+
+    25% {
+        left: -80px;
+        opacity: .5;
+        /* z-index: 12; NÃO HÁ NECESSIDADE */
+    }
+
+    50% {
+        left: -100px;
+        opacity: .2;
+        /* z-index: 12; NÃO HÁ NECESSIDADE */
+    }
+
+    to {
+        left: -110px;
+        opacity: 0;
+        z-index: -1;
+    }
+}
+
+
+@keyframes deslocamentoDir {
+
+    from {
+        left: 0;
+        z-index: 12;
+    }
+
+    25% {
+        left: 80px;
+        /* z-index: 12;  NÃO HÁ NECESSIDADE*/
+    }
+
+    50% {
+        left: 100px;
+        /* z-index: 12; NÃO HÁ NECESSIDADE*/
+        /* background-color: yellow;  Exemplo que dei no vídeo*/
+    }
+
+    to {
+        left: 110px;
+        z-index: -1;
+    }
+}
+
+
+/*ANIMAÇÃO CSS*/
+
+@keyframes slidein {
+
+    from {
+        left: 0;
+        width: 40%;
+    }
+
+    25% {
+        left: 5%;
+        width: 50%;
+    }
+
+    50% {
+        left: 25%;
+        width: 60%;
+    }
+
+    75% {
+        left: 45%;
+        width: 50%;
+    }
+
+    to {
+        left: 60%;
+        width: 40%;
+    }
+}
+
+@keyframes slideout {
+
+    from {
+        left: 60%;
+        width: 40%;
+    }
+
+    25% {
+        left: 45%;
+        width: 50%;
+    }
+
+    50% {
+        left: 25%;
+        width: 60%;
+    }
+
+    75% {
+        left: 5%;
+        width: 50%;
+    }
+
+    to {
+        left: 0;
+        width: 40%;
+    }
+}
