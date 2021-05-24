@@ -11,7 +11,7 @@ Ajudaremos mostrando os sites mais seguros para que os usuários fiquem sem nenh
 
 | R.A | NOME COMPLETO | CURSO | TURMA |
 | :---: | :----------:| :---: | :---: |
-| 3020200397 | Breno Henrique Alencar Franco| TADS  | 1A |
+| 3020200397 | Breno Henrique Alencar Franco| TADS  | 1A 
 | 3021101288 | Julia da Costa Ramos | TADS | 2A |
 | 3021102513 | Gian Luca Sindici | TADS | 1A |
 | 3021103858 | Kevin Pedro da Silva | TADS | 1A |
