@@ -1,8 +1,8 @@
 
 <?php
-    $servidor = "localhost";
-    $usuario = "root";
-    $senha = "";
+    $servidor = "database-2.ckzxz5dtyqhg.sa-east-1.rds.amazonaws.com";
+    $usuario = "admin";
+    $senha = "123Milgrau";
     $dbname = "login";    
     //Criar a conexao
     $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
